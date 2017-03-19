@@ -10,7 +10,7 @@
         Else
             Timer.Enabled = False
             btnIniciar.Visible = True
-            lblCargando.Text = "Aplicación cargada y lista para ser ejecutada"
+            lblCargando.Text = "Aplicación cargada"
         End If
     End Sub
 

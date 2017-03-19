@@ -48,7 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClassLibrary">
-      <HintPath>..\..\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Visual Studio 2015\Projects\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -88,6 +88,11 @@
       <DependentUpon>frmPrincipal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Imagenes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Imagenes.resx</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -115,6 +120,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imagenes.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Imagenes.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -203,6 +213,234 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\vizicsacsi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jayce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jhin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\malzahar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orianna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renekton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\varus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zyra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alphari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exileh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanssama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hylissang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ignar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kakao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerofevil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vizic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xerxe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alemania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulgaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\españa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\francia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koreasur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reinounido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rumania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anillodoran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacteriofago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bastonvacio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botascdr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botasmovilidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botasrapidez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botasresistencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capacritico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capafuegosolar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cristalrubi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuchilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecosrunicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudodoran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\espadalarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filonoche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gemavida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardiancontrol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guerrero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\habitoespectro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hidratitanica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lagrima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liandry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantoresistencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ojovigilantes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redencion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rostroespiritual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sobremaleficios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tabi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiamat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomoap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\varaap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\varaedades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wardazul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wardnormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wardquitarwards.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youmuu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhonyas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extenuacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantasmal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misfits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicorns.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
